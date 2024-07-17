@@ -1,0 +1,56 @@
+.gradient-background {
+  background: radial-gradient(circle at 6.4% 9.8%, rgb(88, 242, 174) 0%, rgb(0, 130, 240) 97.9%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ 
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 15%;
+}
+.dogg{
+  border-radius: 20%;
+  height: 100px;
+}
+.im1{
+  width:560px;
+  height:300px; 
+  border-radius: 10%;
+}
+.pho{
+  font-size: 100px;
+  color:green;
+  font-weight: bolder;
+}
+@media(max-width:800px){
+  .im1{
+    width: 23rem;
+    height: 15rem;
+    margin-bottom: 10px;
+    border-radius: 20%;
+    }
+    .d-block{
+      border-radius: 20%;
+    }
+  }
+  .d-block{
+    border-radius: 10%;
+  }
